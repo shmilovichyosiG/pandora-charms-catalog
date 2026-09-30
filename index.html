@@ -1,50 +1,71 @@
 <!DOCTYPE html>
 <html lang="he" dir="rtl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>קטלוג חרוזי PANDORA</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>קטלוג חרוזי פנדורה</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <div class="container">
-        <header class="site-header">
-            <div id="resultsCount" class="results-count">טוען נתונים...</div>
-            <h1 class="site-title">קטלוג חרוזי PANDORA</h1>
-        </header>
 
-        <section class="filters-section">
-            <div class="filter-group">
-                <label for="styleFilter">נושא</label>
-                <select id="styleFilter"></select>
-            </div>
+  <div class="wash one"></div>
+  <div class="wash two"></div>
 
-            <div class="filter-group">
-                <label for="publisherFilter">תת-נושא</label>
-                <select id="publisherFilter"></select>
-            </div>
+  <div class="page">
 
-            <div class="filter-group">
-                <label for="authorFilter">זמינות</label>
-                <select id="authorFilter"></select>
-            </div>
+    <header class="page-header">
+      <!--
+        מקום ללוגו: שים כאן קובץ בשם logo.png (או logo.jpg - צריך גם לעדכן
+        את הנתיב למטה) בתוך תיקיית public/. מידות מומלצות: 280×90 פיקסל
+        (רוחב × גובה), רקע שקוף (PNG) עדיף. אם התמונה שלך ביחס שונה, היא
+        עדיין תיכנס יפה - היא רק לא תיחתך ולא תימתח.
+      -->
+      <img src="logo-placeholder.png" alt="לוגו" class="site-logo" />
+      <p class="results-count" id="resultsCount"></p>
+    </header>
 
-            <div class="filter-group">
-                <label for="searchInput">שם</label>
-                <input type="text" id="searchInput" placeholder="הקלד שם חרוז..." list="bookNamesList">
-                <datalist id="bookNamesList"></datalist>
-            </div>
+    <section class="filters-card">
+      <div class="filters-row">
+        <label class="filter-field">
+          <span class="filter-label">נושא</span>
+          <select id="topicFilter"></select>
+        </label>
 
-            <button id="clearFiltersBtn" class="clear-btn">נקה סינון</button>
-        </section>
+        <label class="filter-field">
+          <span class="filter-label">תת-נושא</span>
+          <select id="subTopicFilter"></select>
+        </label>
 
-        <main>
-            <div id="emptyMessage" class="empty-message hidden">לא נמצאו חרוזים התואמים את הסינון.</div>
-            <div id="booksGrid" class="books-grid"></div>
-        </main>
-    </div>
+        <label class="filter-field">
+          <span class="filter-label">זמינות</span>
+          <select id="availabilityFilter">
+            <option value="-- הכל --">-- הכל --</option>
+            <option value="יש">יש במלאי</option>
+            <option value="אין">אין במלאי</option>
+          </select>
+        </label>
+      </div>
 
-    <script src="charms-data.js"></script>
-    <script src="script.js"></script>
+      <div class="search-row">
+        <label class="filter-field search-field">
+          <span class="filter-label">שם</span>
+          <input id="searchInput" type="text" placeholder="הקלד שם חרוז…" list="charmNamesList" autocomplete="off" />
+          <datalist id="charmNamesList"></datalist>
+        </label>
+        <button id="clearFiltersBtn" class="ghost-button">נקה סינון</button>
+      </div>
+    </section>
+
+    <section id="charmsGrid" class="charms-grid"></section>
+
+    <p id="emptyMessage" class="empty-message hidden">לא נמצאו חרוזים התואמים לחיפוש.</p>
+
+  </div>
+
+  <script src="charms-data.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
