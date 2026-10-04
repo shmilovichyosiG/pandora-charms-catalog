@@ -51,7 +51,7 @@ const CHARMS_DATA = [
     "topic": "Disney",
     "subTopic": "Stitch",
     "available": "יש",
-    "note": "",
+    "note": "X2",
     "imageUrl": "Images/stitch6.jpg"
   },
   {
@@ -104,8 +104,8 @@ const CHARMS_DATA = [
     "name": "סטיץ' בחללית",
     "topic": "Disney",
     "subTopic": "Stitch",
-    "available": "אין",
-    "note": "הוזמן",
+    "available": "יש",
+    "note": "X2",
     "imageUrl": "Images/stitch12.jpg"
   },
   {
@@ -125,5 +125,23 @@ const CHARMS_DATA = [
     "available": "אין",
     "note": "",
     "imageUrl": "Images/stitch14.jpg"
+  },
+  {
+    "index": 14,
+    "name": "לילו וסטיץ' רקע כחול",
+    "topic": "Disney",
+    "subTopic": "Stitch",
+    "available": "אין",
+    "note": "",
+    "imageUrl": "Images/stitch15.jpg"
+  },
+  {
+    "index": 15,
+    "name": "סטיץ' חג המולד",
+    "topic": "Disney",
+    "subTopic": "Stitch",
+    "available": "אין",
+    "note": "",
+    "imageUrl": "Images/stitch16.jpg"
   }
 ];
