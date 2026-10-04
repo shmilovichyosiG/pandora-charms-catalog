@@ -51,7 +51,7 @@ const CHARMS_DATA = [
     "topic": "Disney",
     "subTopic": "Stitch",
     "available": "יש",
-    "note": "",
+    "note": "X2",
     "imageUrl": "Images/stitch6.jpg"
   },
   {
@@ -104,8 +104,8 @@ const CHARMS_DATA = [
     "name": "סטיץ' בחללית",
     "topic": "Disney",
     "subTopic": "Stitch",
-    "available": "אין",
-    "note": "הוזמן",
+    "available": "יש",
+    "note": "X2",
     "imageUrl": "Images/stitch12.jpg"
   },
   {
