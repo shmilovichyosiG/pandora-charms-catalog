@@ -125,5 +125,14 @@ const CHARMS_DATA = [
     "available": "אין",
     "note": "",
     "imageUrl": "Images/stitch14.jpg"
+  },
+  {
+    "index": 14,
+    "name": "לילו וסטיץ' רקע כחול",
+    "topic": "Disney",
+    "subTopic": "Stitch",
+    "available": "אין",
+    "note": "",
+    "imageUrl": "Images/stitch15.jpg"
   }
 ];
