@@ -137,11 +137,56 @@ const CHARMS_DATA = [
   },
   {
     "index": 15,
-    "name": "סטיץ' חג המולד",
+    "name": "סטיץ' חג המולד עוגיה",
     "topic": "Disney",
     "subTopic": "Stitch",
     "available": "אין",
     "note": "",
     "imageUrl": "Images/stitch16.jpg"
+  },
+  {
+    "index": 16,
+    "name": "סטיץ' ואג'ל לב צבעוני",
+    "topic": "Disney",
+    "subTopic": "Stitch",
+    "available": "אין",
+    "note": "",
+    "imageUrl": "Images/stitch17.jpg"
+  },
+  {
+    "index": 17,
+    "name": "סטיץ' מיגדל האימה",
+    "topic": "Disney",
+    "subTopic": "Stitch",
+    "available": "אין",
+    "note": "",
+    "imageUrl": "Images/stitch18.jpg"
+  },
+  {
+    "index": 18,
+    "name": "סטיץ' טירת דיסני",
+    "topic": "Disney",
+    "subTopic": "Stitch",
+    "available": "אין",
+    "note": "",
+    "imageUrl": "Images/stitch19.jpg"
+  },
+  {
+    "index": 19,
+    "name": "סטיץ' פופקורן",
+    "topic": "Disney",
+    "subTopic": "Stitch",
+    "available": "אין",
+    "note": "",
+    "imageUrl": "Images/stitch20.jpg"
+  },
+  {
+    "index": 20,
+    "name": "סטיץ' חג המולד מתנות",
+    "topic": "Disney",
+    "subTopic": "Stitch",
+    "available": "אין",
+    "note": "",
+    "imageUrl": "Images/stitch21.jpg"
   }
 ];
