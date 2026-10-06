@@ -20,7 +20,7 @@ const CHARMS_DATA = [
   },
   {
     "index": 2,
-    "name": "אנגל ורוד",
+    "name": "אנג'ל ורוד",
     "topic": "Disney",
     "subTopic": "Stitch",
     "available": "יש",
