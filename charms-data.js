@@ -131,7 +131,7 @@ const CHARMS_DATA = [
     "name": "לילו וסטיץ' רקע כחול",
     "topic": "Disney",
     "subTopic": "Stitch",
-    "available": "אין",
+    "available": "יש",
     "note": "",
     "imageUrl": "Images/stitch15.jpg"
   },
@@ -155,7 +155,7 @@ const CHARMS_DATA = [
   },
   {
     "index": 17,
-    "name": "סטיץ' מיגדל האימה",
+    "name": "סטיץ' מגדל האימה",
     "topic": "Disney",
     "subTopic": "Stitch",
     "available": "אין",
