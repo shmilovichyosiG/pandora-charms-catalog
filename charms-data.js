@@ -113,7 +113,7 @@ const CHARMS_DATA = [
     "name": "סטיץ' רגיל",
     "topic": "Disney",
     "subTopic": "Stitch",
-    "available": "אין",
+    "available": "יש",
     "note": "",
     "imageUrl": "Images/stitch13.jpg"
   },
